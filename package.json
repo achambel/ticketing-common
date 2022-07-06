@@ -1,5 +1,5 @@
 {
-  "name": "@achambel-ticketing/common",
+  "name": "@achambel/ticketing-common",
   "version": "1.0.0",
   "description": "",
   "main": "./build/index.js",
@@ -8,7 +8,7 @@
     "build/**/*"
   ],
   "publishConfig": {
-    "registry": "http://localhost:4873"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "prebuild": "rm -rf build",
